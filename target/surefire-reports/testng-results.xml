@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-12T13:15:26 IST" name="BrowserStack Parallel Suite" finished-at="2025-07-12T13:18:04 IST" duration-ms="157816">
+    <groups>
+    </groups>
+    <test started-at="2025-07-12T13:15:26 IST" name="iPhone" finished-at="2025-07-12T13:17:08 IST" duration-ms="101643">
+      <class name="com.browserstack.assignment.WebScrapTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.browserstack.assignment.WebScrapTest@18a136ac]" started-at="2025-07-12T13:15:26 IST" name="setUp" finished-at="2025-07-12T13:15:43 IST" duration-ms="17393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iPhone 13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@18a136ac]" started-at="2025-07-12T13:15:43 IST" name="runWebScraperTest" finished-at="2025-07-12T13:17:06 IST" duration-ms="82273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runWebScraperTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.browserstack.assignment.WebScrapTest@18a136ac]" started-at="2025-07-12T13:17:06 IST" name="tearDown" finished-at="2025-07-12T13:17:08 IST" duration-ms="1899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runWebScraperTest status=SUCCESS method=WebScrapTest.runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@18a136ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.assignment.WebScrapTest -->
+    </test> <!-- iPhone -->
+    <test started-at="2025-07-12T13:15:26 IST" name="Safari-Mac" finished-at="2025-07-12T13:17:30 IST" duration-ms="124448">
+      <class name="com.browserstack.assignment.WebScrapTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.browserstack.assignment.WebScrapTest@6d1ef78d]" started-at="2025-07-12T13:15:26 IST" name="setUp" finished-at="2025-07-12T13:15:36 IST" duration-ms="10445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Monterey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@6d1ef78d]" started-at="2025-07-12T13:15:36 IST" name="runWebScraperTest" finished-at="2025-07-12T13:17:28 IST" duration-ms="111998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runWebScraperTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.browserstack.assignment.WebScrapTest@6d1ef78d]" started-at="2025-07-12T13:17:28 IST" name="tearDown" finished-at="2025-07-12T13:17:30 IST" duration-ms="1918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runWebScraperTest status=SUCCESS method=WebScrapTest.runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@6d1ef78d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.assignment.WebScrapTest -->
+    </test> <!-- Safari-Mac -->
+    <test started-at="2025-07-12T13:15:26 IST" name="Chrome-Windows" finished-at="2025-07-12T13:17:36 IST" duration-ms="130195">
+      <class name="com.browserstack.assignment.WebScrapTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.browserstack.assignment.WebScrapTest@8ad6665]" started-at="2025-07-12T13:15:26 IST" name="setUp" finished-at="2025-07-12T13:15:33 IST" duration-ms="7366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@8ad6665]" started-at="2025-07-12T13:15:33 IST" name="runWebScraperTest" finished-at="2025-07-12T13:17:34 IST" duration-ms="121098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runWebScraperTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.browserstack.assignment.WebScrapTest@8ad6665]" started-at="2025-07-12T13:17:34 IST" name="tearDown" finished-at="2025-07-12T13:17:36 IST" duration-ms="1630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runWebScraperTest status=SUCCESS method=WebScrapTest.runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@8ad6665] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.assignment.WebScrapTest -->
+    </test> <!-- Chrome-Windows -->
+    <test started-at="2025-07-12T13:15:26 IST" name="Firefox-Mac" finished-at="2025-07-12T13:17:37 IST" duration-ms="131270">
+      <class name="com.browserstack.assignment.WebScrapTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.browserstack.assignment.WebScrapTest@5d12a356]" started-at="2025-07-12T13:15:26 IST" name="setUp" finished-at="2025-07-12T13:15:38 IST" duration-ms="12240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[110.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Monterey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@5d12a356]" started-at="2025-07-12T13:15:38 IST" name="runWebScraperTest" finished-at="2025-07-12T13:17:35 IST" duration-ms="116538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runWebScraperTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.browserstack.assignment.WebScrapTest@5d12a356]" started-at="2025-07-12T13:17:35 IST" name="tearDown" finished-at="2025-07-12T13:17:37 IST" duration-ms="2429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runWebScraperTest status=SUCCESS method=WebScrapTest.runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@5d12a356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.assignment.WebScrapTest -->
+    </test> <!-- Firefox-Mac -->
+    <test started-at="2025-07-12T13:15:26 IST" name="Edge-Windows" finished-at="2025-07-12T13:18:04 IST" duration-ms="157776">
+      <class name="com.browserstack.assignment.WebScrapTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.browserstack.assignment.WebScrapTest@176b3f44]" started-at="2025-07-12T13:15:26 IST" name="setUp" finished-at="2025-07-12T13:15:44 IST" duration-ms="17761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[114.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@176b3f44]" started-at="2025-07-12T13:15:44 IST" name="runWebScraperTest" finished-at="2025-07-12T13:18:02 IST" duration-ms="138259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runWebScraperTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.browserstack.assignment.WebScrapTest@176b3f44]" started-at="2025-07-12T13:18:02 IST" name="tearDown" finished-at="2025-07-12T13:18:04 IST" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runWebScraperTest status=SUCCESS method=WebScrapTest.runWebScraperTest()[pri:0, instance:com.browserstack.assignment.WebScrapTest@176b3f44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.assignment.WebScrapTest -->
+    </test> <!-- Edge-Windows -->
+  </suite> <!-- BrowserStack Parallel Suite -->
+</testng-results>

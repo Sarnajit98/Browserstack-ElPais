@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="BrowserStack Parallel Suite" parallel="tests" thread-count="5">
+    <test name="Chrome-Windows">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
+        <parameter name="browserVersion" value="120.0"/>
+        <classes>
+            <class name="com.browserstack.assignment.WebScrapTest"/>
+        </classes>
+    </test>
+    <test name="Safari-Mac">
+        <parameter name="browser" value="Safari"/>
+        <parameter name="os" value="OS X"/>
+        <parameter name="osVersion" value="Monterey"/>
+        <parameter name="browserVersion" value="15.6"/>
+        <classes>
+            <class name="com.browserstack.assignment.WebScrapTest"/>
+        </classes>
+    </test>
+    <test name="iPhone">
+        <parameter name="deviceName" value="iPhone 13"/>
+        <parameter name="osVersion" value="15"/>
+        <parameter name="browser" value="Chromium"/>
+        <classes>
+            <class name="com.browserstack.assignment.WebScrapTest"/>
+        </classes>
+    </test>
+    <test name="Edge-Windows">
+        <parameter name="browser" value="Edge"/>
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
+        <parameter name="browserVersion" value="114.0"/>
+        <classes>
+            <class name="com.browserstack.assignment.WebScrapTest"/>
+        </classes>
+    </test>
+    <test name="Firefox-Mac">
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="os" value="OS X"/>
+        <parameter name="osVersion" value="Monterey"/>
+        <parameter name="browserVersion" value="110.0"/>
+        <classes>
+            <class name="com.browserstack.assignment.WebScrapTest"/>
+        </classes>
+    </test>
+</suite>
