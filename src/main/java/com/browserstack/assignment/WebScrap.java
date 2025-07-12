@@ -151,7 +151,7 @@ public class WebScrap {
                         System.out.println("Failed to extract image for article " + count + ": " + e.getMessage());
                     }
 
-                    System.out.println("🔹 Article " + count);
+                    System.out.println("Article " + count);
                     System.out.println("Title: " + title);
                     System.out.println("Content (first 200 chars): " + content.substring(0, Math.min(200, content.length())) + "...");
                     System.out.println("--------------------------------------------------");
