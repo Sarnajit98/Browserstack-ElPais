@@ -7,6 +7,6 @@ package com.browserstack.assignment;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("✅ Maven + Java is working!");
+        System.out.println("Maven + Java is working!");
     }
 }
