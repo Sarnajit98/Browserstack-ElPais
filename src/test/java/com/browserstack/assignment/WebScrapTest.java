@@ -57,7 +57,7 @@ public class WebScrapTest {
 
     @Test
     public void runWebScraperTest() {
-        System.out.println("🔹 Started test on " + ((RemoteWebDriver) driver).getCapabilities().getBrowserName() +
+        System.out.println("Started test on " + ((RemoteWebDriver) driver).getCapabilities().getBrowserName() +
                        " | Thread: " + Thread.currentThread().getId());
         WebScrap.runScraper(driver);
     }
